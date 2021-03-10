@@ -344,9 +344,12 @@ input, select, textarea {
 			text-decoration: none;
 		}
 
+
+
 	h1.major, h2.major, h3.major {
 		position: relative;
 	}
+	
 
 		h1.major:after, h2.major:after, h3.major:after {
 			content: '';
@@ -3687,4 +3690,10 @@ input, select, textarea {
 				transform: none;
 			}
 
+	}
+
+	i.phonetic {
+		letter-spacing: 3px;
+		font-size: 1rem;
+		font-weight: 100;
 	}
